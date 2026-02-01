@@ -17,9 +17,9 @@ export function initSentry() {
   Sentry.init({
     dsn,
     // Disable Sentry in development to avoid noise
-    enableInExpoDevelopment: true, // Set to true for testing, false for normal dev
+    enableInExpoDevelopment: false, // Set to true for testing, false for normal dev
     // Set to true during initial setup to verify it works, then set to false
-    debug: true, // Shows Sentry logs in console
+    debug: false, // Shows Sentry logs in console
     // Sample rate for performance monitoring (5% of transactions)
     tracesSampleRate: 0.05,
     // Environment
