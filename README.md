@@ -5,7 +5,7 @@
 ## The Plan
 The plan for this application (eventually) is for a user to be able to define the route they want to run in natural language and have a running route be created. 
 For example: 'I want to run 10km starting in Greenwich and ending in Whitechapel, and where possible I want to go into parks' 
-The app would then use AI to generate plot points for a map and generate the route. 
+The app would then use AI to generate plot points for a map and generate the route using a maps api.
 
 ## Current App
 - Save and reload routes (up to 5 can be saved)
